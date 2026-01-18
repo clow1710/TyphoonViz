@@ -1,0 +1,5 @@
+{
+  "name": "Typhoon Viz",
+  "description": "Visualize typhoon trajectories and wind radii (34kt, 50kt, 64kt) from reanalysis CSV data on an interactive map.",
+  "requestFramePermissions": []
+}
