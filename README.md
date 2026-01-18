@@ -1,20 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Typhoon Viz
 
-# Run and deploy your AI Studio app
+Visualize typhoon trajectories and wind radii (34kt, 50kt, 64kt) from reanalysis CSV data on an interactive map.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1MZweVt3ekre0tWRlLyPmojzH7jsVnJzM
+- Interactive map visualization of typhoon trajectories
+- Wind radii display (34kt, 50kt, 64kt)
+- Color-coded intensity levels
+- CSV file upload support
+- Detailed point information panel
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+
+2. Run the app:
+   ```bash
+   npm run dev
+   ```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Preview Production Build
+
+```bash
+npm run preview
+```
